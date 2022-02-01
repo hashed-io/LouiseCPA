@@ -1,0 +1,9 @@
+baseURL = "/"
+title = "Louise W. Reed, CPA, PC"
+languageCode = "en-us"
+theme = "hugo-icon"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

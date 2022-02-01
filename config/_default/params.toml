@@ -1,0 +1,71 @@
+author = "Hashed"
+description = "Louise W. Reed is a Certified Public Accountant in Richmond Virginia specializing in working with Small Businesses, Entrepreneurs and individuals looking to realize their dreams through tax and accounting opportunities. The firm works in a paperless environment. Louise is a QuickBooks ProAdvisor."
+
+[hero]
+  title = "Creating a real-time marketplace for the purchase of state tax credits...Afloat, Inc."
+  img = "images/hero_bg.jpg"
+  description = "[Abigail Olson's The Hay Wagon](https://www.amazon.com/gp/product/1951565304?pf_rd_r=XA4VDD7HM331JK84RJ58&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee)"
+
+
+[nav]
+  mission = "Afloat"
+  services = "About"
+  us = "Us"
+  contact = "Contact"
+  resources = "Client Resources"
+
+[mission]
+  enable = true
+  [mission.images]
+    enable = false
+  [[mission.item]]
+    weight = 1
+    name = "Afloat, Inc."
+    title = "Afloat, Inc."
+    description = "<p>Links about Afloat and Transferable Tax Credits</p><p><a target='_blank' rel='noopener noreferrer' href='https://www.stayafloat.io/#/' class='btn btn-primary btn-outline'>Afloat.io</a></p>"
+
+[services]
+  enable = true
+  title = "Accounting is holistic."
+  [[services.item]]
+    description = "Whether you prefer level 4 sudoku, the adrenaline rush of online motor cross, or the touch of an old-fashioned jigsaw puzzle is probably more information than your average accountant deems necessary. We’re not average."
+  [[services.item]]
+    description = "Louise W. Reed, CPA, PC is accounting that accounts for how you think and how you’re moved to meet the world. When assembling the ideal tools and support systems for your success we recognize that the nature of your industry or the amount you billed last year simply aren’t the whole story. Everything about your life is interconnected. Why shouldn’t your accounting be a part of that equation?"
+  [[services.item]] 
+    description = "Welcome to the age of public accounting where tax codes and compliance are merely the tip of a very interesting iceberg. You."
+    blockquote = "<p><strong>Louise W. Reed, CPA, PC</strong> Accounting that accounts for <em>all</em> of you.</p>"
+
+[us]
+  enable = true
+
+[resources]
+  title = "Client Resources"
+  enable = true
+  [[resources.resource]]
+    title = "Internal Revenue Service"
+    img = "resources/irs.gif"
+    link = "https://www.irs.gov/"
+  [[resources.resource]]
+    title = "Electronic Federal Tax Payment System"
+    img = "resources/eftps.gif"
+    link = "https://www.eftps.com/eftps/"
+  [[resources.resource]]
+    title = "NC Department of Revenue"
+    img = "resources/ncdr.gif"
+    link = "https://www.ncdor.gov/"
+  [[resources.resource]]
+    title = "VA Dept of Revenue - For Businesses"
+    img = "resources/drb.gif"
+    link = "https://www.business.tax.virginia.gov/VTOL/tax/Login.xhtml"
+  [[resources.resource]]
+    title = "VA Dept of Revenue - For Individuals"
+    img = "resources/dri.gif"
+    link = "https://www.individual.tax.virginia.gov/IOP"
+
+[contact]
+  enable = true
+  title = "Contact"
+
+[footer]
+  enable = true
+  note = "<p><small>&copy;  2009-2020 Louise W. Reed, CPA, PC. <br> <a href='mailto:louise@louisereedcpa.com'>louise@louisereedcpa.com</a>"

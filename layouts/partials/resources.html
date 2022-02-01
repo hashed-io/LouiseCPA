@@ -1,0 +1,36 @@
+<div id="fh5co-team" data-section="resources">
+  <div class="container equal">
+     
+    {{ with .Site.Params.resources }}
+    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+      <h2>{{ .title }}</h2>
+      <p>{{ .description | markdownify }}</p>
+    </div>
+    <div class="container text-center" style="margin-bottom: 10rem;">
+      <h4 class="text-muted">Client Portal</h4>
+      <a target="_blank" rel="noopener noreferrer" class="btn btn-primary" href="https://www.clientaxcess.com">Login Here</a>
+    </div>
+    <div class="row container" >
+      <h4 class="text-muted text-center">Useful Links</h4>
+      {{ range first 3 .resource  }}
+      <div class="col-md-4 col-xs-12">
+        <a href="{{ .link }}" class="text-center" target="_blank" rel="noopener noreferrer">
+            <img src="{{ .img | absURL }}" alt="{{ .title }}" class="img-responsive" style="margin:0 auto;">
+            <!-- <p class="text-muted">{{ .title }}</p> -->
+            <p class="text-muted">{{ .description | markdownify }}</p>
+        </a>
+      </div>
+      {{ end }}
+      {{ range last 2 .resource  }}
+      <div class="col-md-6 col-xs-12">
+        <a href="{{ .link }}" class="text-center" target="_blank" rel="noopener noreferrer">
+            <img src="{{ .img | absURL }}" alt="{{ .title }}" class="img-responsive" style="margin:0 auto;">
+            <!-- <p class="text-muted">{{ .title }}</p> -->
+            <p class="text-muted">{{ .description | markdownify }}</p>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div> <!-- END fh5co-team -->
