@@ -21,7 +21,7 @@ description = "Louise W. Reed is a Certified Public Accountant in Richmond Virgi
     weight = 1
     name = "Afloat, Inc."
     title = "Afloat, Inc."
-    description = "<p>Links about Afloat and Transferable Tax Credits</p><p><a target='_blank' rel='noopener noreferrer' href='https://www.stayafloat.io/#/' class='btn btn-primary btn-outline'>Afloat.io</a></p>"
+    description = "<p>Links about Afloat and Transferable Tax Credits</p><p><a target='_blank' rel='noopener noreferrer' href='https://www.stayafloat.io/#/' class='btn btn-primary btn-outline'>Stayafloat.io </a></p>"
 
 [services]
   enable = true
