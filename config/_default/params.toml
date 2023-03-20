@@ -9,13 +9,13 @@ description = "Louise W. Reed is a Certified Public Accountant in Richmond Virgi
 [nav]
   us = "Us"
   contact = "Contact"
-  resources = "Client Resources"
+  resources = "Existing CPA Clients"
 
 [us]
   enable = true
 
 [resources]
-  title = "Client Resources"
+  title = "Existing CPA Clients"
   enable = true
   [[resources.resource]]
     title = "Internal Revenue Service"
