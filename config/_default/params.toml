@@ -7,21 +7,9 @@ description = "Louise W. Reed is a Certified Public Accountant in Richmond Virgi
 
 
 [nav]
-  mission = "Afloat"
-  services = "About"
   us = "Us"
   contact = "Contact"
   resources = "Client Resources"
-
-[mission]
-  enable = true
-  [mission.images]
-    enable = false
-  [[mission.item]]
-    weight = 1
-    name = "Afloat, Inc."
-    title = "Afloat, Inc."
-    description = "<p>Links about Afloat and Transferable Tax Credits</p><p><a target='_blank' rel='noopener noreferrer' href='https://www.stayafloat.io/#/' class='btn btn-primary btn-outline'>Stayafloat.io </a></p>"
 
 [us]
   enable = true
