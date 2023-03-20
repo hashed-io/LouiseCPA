@@ -23,17 +23,6 @@ description = "Louise W. Reed is a Certified Public Accountant in Richmond Virgi
     title = "Afloat, Inc."
     description = "<p>Links about Afloat and Transferable Tax Credits</p><p><a target='_blank' rel='noopener noreferrer' href='https://www.stayafloat.io/#/' class='btn btn-primary btn-outline'>Stayafloat.io </a></p>"
 
-[services]
-  enable = true
-  title = "Accounting is holistic."
-  [[services.item]]
-    description = "Whether you prefer level 4 sudoku, the adrenaline rush of online motor cross, or the touch of an old-fashioned jigsaw puzzle is probably more information than your average accountant deems necessary. We’re not average."
-  [[services.item]]
-    description = "Louise W. Reed, CPA, PC is accounting that accounts for how you think and how you’re moved to meet the world. When assembling the ideal tools and support systems for your success we recognize that the nature of your industry or the amount you billed last year simply aren’t the whole story. Everything about your life is interconnected. Why shouldn’t your accounting be a part of that equation?"
-  [[services.item]] 
-    description = "Welcome to the age of public accounting where tax codes and compliance are merely the tip of a very interesting iceberg. You."
-    blockquote = "<p><strong>Louise W. Reed, CPA, PC</strong> Accounting that accounts for <em>all</em> of you.</p>"
-
 [us]
   enable = true
 
