@@ -2,43 +2,20 @@ author = "Hashed"
 description = "Louise W. Reed is a Certified Public Accountant in Richmond Virginia specializing in working with Small Businesses, Entrepreneurs and individuals looking to realize their dreams through tax and accounting opportunities. The firm works in a paperless environment. Louise is a QuickBooks ProAdvisor."
 
 [hero]
-  title = "Creating a real-time marketplace for the purchase of state tax credits...Afloat, Inc."
+  title = "Creating a real-time marketplace for transferable tax credits… <a target='__blank' rel='noopener noreferrer' href='http://stayafloat.io/'> Afloat, Inc. </a>"
   img = "images/hero_bg.jpg"
 
 
 [nav]
-  mission = "Afloat"
-  services = "About"
   us = "Us"
   contact = "Contact"
-  resources = "Client Resources"
-
-[mission]
-  enable = true
-  [mission.images]
-    enable = false
-  [[mission.item]]
-    weight = 1
-    name = "Afloat, Inc."
-    title = "Afloat, Inc."
-    description = "<p>Links about Afloat and Transferable Tax Credits</p><p><a target='_blank' rel='noopener noreferrer' href='https://www.stayafloat.io/#/' class='btn btn-primary btn-outline'>Stayafloat.io </a></p>"
-
-[services]
-  enable = true
-  title = "Accounting is holistic."
-  [[services.item]]
-    description = "Whether you prefer level 4 sudoku, the adrenaline rush of online motor cross, or the touch of an old-fashioned jigsaw puzzle is probably more information than your average accountant deems necessary. We’re not average."
-  [[services.item]]
-    description = "Louise W. Reed, CPA, PC is accounting that accounts for how you think and how you’re moved to meet the world. When assembling the ideal tools and support systems for your success we recognize that the nature of your industry or the amount you billed last year simply aren’t the whole story. Everything about your life is interconnected. Why shouldn’t your accounting be a part of that equation?"
-  [[services.item]] 
-    description = "Welcome to the age of public accounting where tax codes and compliance are merely the tip of a very interesting iceberg. You."
-    blockquote = "<p><strong>Louise W. Reed, CPA, PC</strong> Accounting that accounts for <em>all</em> of you.</p>"
+  resources = "Existing CPA Clients"
 
 [us]
   enable = true
 
 [resources]
-  title = "Client Resources"
+  title = "Existing CPA Clients"
   enable = true
   [[resources.resource]]
     title = "Internal Revenue Service"
@@ -67,4 +44,4 @@ description = "Louise W. Reed is a Certified Public Accountant in Richmond Virgi
 
 [footer]
   enable = true
-  note = "<p><small>&copy;  2009-2020 Louise W. Reed, CPA, PC. <br> <a href='mailto:louise@louisereedcpa.com'>louise@louisereedcpa.com</a>"
+  note = "<p><small>&copy;  2009-2020 Louise W. Reed, CPA, PC. <br> <a href='mailto:louise@stayafloat.io'>louise@stayafloat.io</a>"
